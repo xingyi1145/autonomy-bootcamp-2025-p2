@@ -19,13 +19,18 @@ from ..common.modules.logger import logger
 def command_worker(
     connection: mavutil.mavfile,
     target: command.Position,
-    args,  # Place your own arguments here
-    # Add other necessary worker arguments here
+    input_queue: queue_proxy_wrapper.QueueProxyWrapper,
+    output_queue: queue_proxy_wrapper.QueueProxyWrapper,
+    controller: worker_controller.WorkerController,
 ) -> None:
     """
     Worker process.
 
-    args... describe what the arguments are
+    connection: MAVLink connection to the drone.
+    target: Target position to face.
+    input_queue: Queue to receive TelemetryData from telemetry worker.
+    output_queue: Queue to output command strings to main process.
+    controller: Worker controller for pause/exit signals.
     """
     # =============================================================================================
     #                          ↑ BOOTCAMPERS MODIFY ABOVE THIS COMMENT ↑
@@ -49,7 +54,34 @@ def command_worker(
     # =============================================================================================
     # Instantiate class object (command.Command)
 
+    result, cmd = command.Command.create(connection, target, local_logger)
+    if not result or cmd is None:
+        local_logger.error("Failed to create Command")
+        return
+
     # Main loop: do work.
+    while not controller.is_exit_requested():
+        controller.check_pause()
+
+        # Get telemetry data from input queue
+        try:
+            telemetry_data = input_queue.queue.get(timeout=0.1)
+            if telemetry_data is None:
+                continue
+
+            local_logger.info(f"Received TelemetryData: {telemetry_data}")
+
+            # Process the telemetry data
+            result_str = cmd.run(telemetry_data)
+
+            if result_str is not None:
+                local_logger.info(f"Command result: {result_str}")
+                output_queue.queue.put(result_str)
+        except:  # pylint: disable=bare-except
+            # Queue timeout or empty, continue
+            pass
+
+    local_logger.info("Worker exiting")
 
 
 # =================================================================================================
