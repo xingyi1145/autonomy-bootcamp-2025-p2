@@ -1,0 +1,550 @@
+12:43:21: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 50] Logger initialized
+12:43:21: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 0,
+            y: 0,
+            z: 29,
+            x_velocity: 0,
+            y_velocity: 0,
+            z_velocity: 4,
+            roll: None,
+            pitch: None,
+            yaw: 0,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:21: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (0.0, 0.0, 4.0)
+12:43:21: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 114] CHANGE_ALTITUDE: 1
+12:43:21: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 78] Command result: CHANGE_ALTITUDE: 1
+12:43:21: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 0,
+            y: 0,
+            z: 31,
+            x_velocity: 0,
+            y_velocity: 0,
+            z_velocity: -2,
+            roll: None,
+            pitch: None,
+            yaw: 0,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:21: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (0.0, 0.0, 1.0)
+12:43:21: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 114] CHANGE_ALTITUDE: -1
+12:43:21: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 78] Command result: CHANGE_ALTITUDE: -1
+12:43:22: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 0,
+            y: 0,
+            z: 30.2,
+            x_velocity: 0,
+            y_velocity: 0,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: 1.1071487177940904,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:22: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (0.0, 0.0, 0.6666666666666666)
+12:43:22: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 0,
+            y: 0,
+            z: 29.8,
+            x_velocity: 0,
+            y_velocity: 0,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: 1.1071487177940904,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:22: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (0.0, 0.0, 0.5)
+12:43:23: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 0,
+            y: 0,
+            z: 30,
+            x_velocity: 0,
+            y_velocity: 0,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: 1.1071487177940904,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:23: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (0.0, 0.0, 0.4)
+12:43:23: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 0,
+            y: 0,
+            z: 30,
+            x_velocity: 0,
+            y_velocity: 0,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: 1.142055302833977,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:23: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (0.0, 0.0, 0.3333333333333333)
+12:43:24: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 0,
+            y: 0,
+            z: 30,
+            x_velocity: 0,
+            y_velocity: 0,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: 1.072242132754204,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:24: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (0.0, 0.0, 0.2857142857142857)
+12:43:24: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 0,
+            y: 0,
+            z: 30,
+            x_velocity: 0,
+            y_velocity: 20,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: 0,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:24: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (0.0, 2.5, 0.25)
+12:43:24: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 159] CHANGE_YAW: 63.43494882292201
+12:43:24: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 78] Command result: CHANGE_YAW: 63.43494882292201
+12:43:25: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 10,
+            y: 0,
+            z: 30,
+            x_velocity: 0,
+            y_velocity: 20,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: 0,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:25: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (0.0, 4.444444444444445, 0.2222222222222222)
+12:43:25: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 159] CHANGE_YAW: 90.0
+12:43:25: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 78] Command result: CHANGE_YAW: 90.0
+12:43:25: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 20,
+            y: 0,
+            z: 30,
+            x_velocity: 0,
+            y_velocity: 20,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: 0,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:25: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (0.0, 6.0, 0.2)
+12:43:25: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 159] CHANGE_YAW: 116.56505117707799
+12:43:25: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 78] Command result: CHANGE_YAW: 116.56505117707799
+12:43:26: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 30,
+            y: 0,
+            z: 30,
+            x_velocity: 20,
+            y_velocity: 0,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: 1.5707963267948966,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:26: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (1.8181818181818181, 5.454545454545454, 0.18181818181818182)
+12:43:26: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 159] CHANGE_YAW: 45.0
+12:43:26: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 78] Command result: CHANGE_YAW: 45.0
+12:43:26: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 30,
+            y: 10,
+            z: 30,
+            x_velocity: 20,
+            y_velocity: 0,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: 1.5707963267948966,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:26: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (3.3333333333333335, 5.0, 0.16666666666666666)
+12:43:26: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 159] CHANGE_YAW: 63.43494882292201
+12:43:26: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 78] Command result: CHANGE_YAW: 63.43494882292201
+12:43:27: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 30,
+            y: 20,
+            z: 30,
+            x_velocity: 20,
+            y_velocity: 0,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: 1.5707963267948966,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:27: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (4.615384615384615, 4.615384615384615, 0.15384615384615385)
+12:43:27: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 159] CHANGE_YAW: 90.0
+12:43:27: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 78] Command result: CHANGE_YAW: 90.0
+12:43:27: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 30,
+            y: 30,
+            z: 30,
+            x_velocity: 0,
+            y_velocity: -20,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: 3.141592653589793,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:27: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (4.285714285714286, 2.857142857142857, 0.14285714285714285)
+12:43:27: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 159] CHANGE_YAW: 26.565051177077994
+12:43:27: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 78] Command result: CHANGE_YAW: 26.565051177077994
+12:43:28: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 20,
+            y: 30,
+            z: 30,
+            x_velocity: 0,
+            y_velocity: -20,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: -3.141592653589793,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:28: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (4.0, 1.3333333333333333, 0.13333333333333333)
+12:43:28: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 159] CHANGE_YAW: 45.0
+12:43:28: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 78] Command result: CHANGE_YAW: 45.0
+12:43:28: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 10,
+            y: 30,
+            z: 30,
+            x_velocity: 0,
+            y_velocity: -20,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: 3.141592653589793,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:28: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (3.75, 0.0, 0.125)
+12:43:28: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 159] CHANGE_YAW: 90.0
+12:43:28: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 78] Command result: CHANGE_YAW: 90.0
+12:43:29: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 0,
+            y: 30,
+            z: 30,
+            x_velocity: -20,
+            y_velocity: 0,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: -1.5707963267948966,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:29: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (2.3529411764705883, 0.0, 0.11764705882352941)
+12:43:29: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 159] CHANGE_YAW: 45.0
+12:43:29: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 78] Command result: CHANGE_YAW: 45.0
+12:43:29: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 0,
+            y: 20,
+            z: 30,
+            x_velocity: -20,
+            y_velocity: 0,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: -1.5707963267948966,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:29: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (1.1111111111111112, 0.0, 0.1111111111111111)
+12:43:29: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 159] CHANGE_YAW: 90.0
+12:43:29: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 78] Command result: CHANGE_YAW: 90.0
+12:43:30: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 0,
+            y: 10,
+            z: 30,
+            x_velocity: -20,
+            y_velocity: 0,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: -1.5707963267948966,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:30: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (0.0, 0.0, 0.10526315789473684)
+12:43:30: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 159] CHANGE_YAW: 135.0
+12:43:30: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 78] Command result: CHANGE_YAW: 135.0
+12:43:30: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 0,
+            y: 0,
+            z: 30,
+            x_velocity: 0,
+            y_velocity: 20,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: 1.5707963267948966,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:30: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (0.0, 1.0, 0.1)
+12:43:30: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 159] CHANGE_YAW: -26.565051177077994
+12:43:30: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 78] Command result: CHANGE_YAW: -26.565051177077994
+12:43:31: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 0,
+            y: 10,
+            z: 30,
+            x_velocity: 0,
+            y_velocity: 20,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: 1.5707963267948966,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:31: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (0.0, 1.9047619047619047, 0.09523809523809523)
+12:43:31: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 159] CHANGE_YAW: -45.0
+12:43:31: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 78] Command result: CHANGE_YAW: -45.0
+12:43:31: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 0,
+            y: 20,
+            z: 30,
+            x_velocity: 0,
+            y_velocity: 20,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: 1.5707963267948966,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:31: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (0.0, 2.727272727272727, 0.09090909090909091)
+12:43:31: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 159] CHANGE_YAW: -90.0
+12:43:31: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 78] Command result: CHANGE_YAW: -90.0
+12:43:32: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 0,
+            y: 30,
+            z: 30,
+            x_velocity: 20,
+            y_velocity: 0,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: 0,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:32: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (0.8695652173913043, 2.608695652173913, 0.08695652173913043)
+12:43:32: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 159] CHANGE_YAW: -45.0
+12:43:32: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 78] Command result: CHANGE_YAW: -45.0
+12:43:32: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 10,
+            y: 30,
+            z: 30,
+            x_velocity: 20,
+            y_velocity: 0,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: 0,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:32: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (1.6666666666666667, 2.5, 0.08333333333333333)
+12:43:32: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 159] CHANGE_YAW: -90.0
+12:43:32: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 78] Command result: CHANGE_YAW: -90.0
+12:43:33: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 20,
+            y: 30,
+            z: 30,
+            x_velocity: 20,
+            y_velocity: 0,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: 0,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:33: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (2.4, 2.4, 0.08)
+12:43:33: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 159] CHANGE_YAW: -135.0
+12:43:33: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 78] Command result: CHANGE_YAW: -135.0
+12:43:33: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 30,
+            y: 30,
+            z: 30,
+            x_velocity: 0,
+            y_velocity: -20,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: -1.5707963267948966,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:33: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (2.3076923076923075, 1.5384615384615385, 0.07692307692307693)
+12:43:33: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 159] CHANGE_YAW: -63.43494882292201
+12:43:33: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 78] Command result: CHANGE_YAW: -63.43494882292201
+12:43:34: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 30,
+            y: 20,
+            z: 30,
+            x_velocity: 0,
+            y_velocity: -20,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: -1.5707963267948966,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:34: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (2.2222222222222223, 0.7407407407407407, 0.07407407407407407)
+12:43:34: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 159] CHANGE_YAW: -90.0
+12:43:34: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 78] Command result: CHANGE_YAW: -90.0
+12:43:34: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 30,
+            y: 10,
+            z: 30,
+            x_velocity: 0,
+            y_velocity: -20,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: -1.5707963267948966,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:34: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (2.142857142857143, 0.0, 0.07142857142857142)
+12:43:34: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 159] CHANGE_YAW: -116.56505117707799
+12:43:34: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 78] Command result: CHANGE_YAW: -116.56505117707799
+12:43:35: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 30,
+            y: 0,
+            z: 30,
+            x_velocity: -20,
+            y_velocity: 0,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: -3.141592653589793,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:35: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (1.3793103448275863, 0.0, 0.06896551724137931)
+12:43:35: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 159] CHANGE_YAW: -45.0
+12:43:35: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 78] Command result: CHANGE_YAW: -45.0
+12:43:35: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 20,
+            y: 0,
+            z: 30,
+            x_velocity: -20,
+            y_velocity: 0,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: 3.141592653589793,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:35: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (0.6666666666666666, 0.0, 0.06666666666666667)
+12:43:35: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 159] CHANGE_YAW: -63.43494882292201
+12:43:35: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 78] Command result: CHANGE_YAW: -63.43494882292201
+12:43:36: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Received TelemetryData: {
+            time_since_boot: None,
+            x: 10,
+            y: 0,
+            z: 30,
+            x_velocity: -20,
+            y_velocity: 0,
+            z_velocity: 0,
+            roll: None,
+            pitch: None,
+            yaw: -3.141592653589793,
+            roll_speed: None,
+            pitch_speed: None,
+            yaw_speed: None
+        }
+12:43:36: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 90] Average velocity: (0.0, 0.0, 0.06451612903225806)
+12:43:36: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 159] CHANGE_YAW: -90.0
+12:43:36: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 78] Command result: CHANGE_YAW: -90.0
+12:43:38: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 84] Worker exiting

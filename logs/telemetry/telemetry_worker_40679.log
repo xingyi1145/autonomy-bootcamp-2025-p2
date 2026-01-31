@@ -1,0 +1,358 @@
+12:40:57: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 46] Logger initialized
+12:40:57: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 127] Received ATTITUDE: yaw=0.0
+12:40:57: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 130] Received LOCAL_POSITION_NED: x=0.0, y=0.0, z=0.0
+12:40:57: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] TelemetryData: {
+            time_since_boot: 0,
+            x: 0.0,
+            y: 0.0,
+            z: -0.0,
+            x_velocity: 0.0,
+            y_velocity: 1.0,
+            z_velocity: -0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 0.0,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+12:40:57: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 127] Received ATTITUDE: yaw=1.0471975803375244
+12:40:57: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 130] Received LOCAL_POSITION_NED: x=0.5, y=0.0, z=0.0
+12:40:57: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] TelemetryData: {
+            time_since_boot: 500,
+            x: 0.0,
+            y: 0.5,
+            z: -0.0,
+            x_velocity: 0.0,
+            y_velocity: 1.0,
+            z_velocity: -0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 1.0471975803375244,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+12:40:58: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 127] Received ATTITUDE: yaw=2.094395160675049
+12:40:58: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 127] Received ATTITUDE: yaw=3.1415927410125732
+12:40:58: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 130] Received LOCAL_POSITION_NED: x=1.0, y=0.0, z=0.0
+12:40:58: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] TelemetryData: {
+            time_since_boot: 1000,
+            x: 0.0,
+            y: 1.0,
+            z: -0.0,
+            x_velocity: 0.0,
+            y_velocity: 1.0,
+            z_velocity: -0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 3.1415927410125732,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+12:40:58: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 127] Received ATTITUDE: yaw=-2.094395160675049
+12:40:58: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 130] Received LOCAL_POSITION_NED: x=1.5, y=0.0, z=0.0
+12:40:58: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] TelemetryData: {
+            time_since_boot: 1500,
+            x: 0.0,
+            y: 1.5,
+            z: -0.0,
+            x_velocity: 0.0,
+            y_velocity: 1.0,
+            z_velocity: -0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: -2.094395160675049,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+12:40:59: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 127] Received ATTITUDE: yaw=-1.0471975803375244
+12:40:59: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 127] Received ATTITUDE: yaw=0.0
+12:40:59: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 130] Received LOCAL_POSITION_NED: x=2.0, y=0.0, z=0.0
+12:40:59: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] TelemetryData: {
+            time_since_boot: 2000,
+            x: 0.0,
+            y: 2.0,
+            z: -0.0,
+            x_velocity: 0.0,
+            y_velocity: 1.0,
+            z_velocity: -0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 0.0,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+12:40:59: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 127] Received ATTITUDE: yaw=1.0471975803375244
+12:40:59: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 130] Received LOCAL_POSITION_NED: x=2.5, y=0.0, z=0.0
+12:40:59: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] TelemetryData: {
+            time_since_boot: 2500,
+            x: 0.0,
+            y: 2.5,
+            z: -0.0,
+            x_velocity: 0.0,
+            y_velocity: 1.0,
+            z_velocity: -0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 1.0471975803375244,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+12:41:00: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 127] Received ATTITUDE: yaw=2.094395160675049
+12:41:00: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 127] Received ATTITUDE: yaw=3.1415927410125732
+12:41:00: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 130] Received LOCAL_POSITION_NED: x=3.0, y=0.0, z=0.0
+12:41:00: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] TelemetryData: {
+            time_since_boot: 3000,
+            x: 0.0,
+            y: 3.0,
+            z: -0.0,
+            x_velocity: 0.0,
+            y_velocity: 1.0,
+            z_velocity: -0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 3.1415927410125732,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+12:41:00: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 127] Received ATTITUDE: yaw=-2.094395160675049
+12:41:00: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 130] Received LOCAL_POSITION_NED: x=3.5, y=0.0, z=0.0
+12:41:00: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] TelemetryData: {
+            time_since_boot: 3500,
+            x: 0.0,
+            y: 3.5,
+            z: -0.0,
+            x_velocity: 0.0,
+            y_velocity: 1.0,
+            z_velocity: -0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: -2.094395160675049,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+12:41:01: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 127] Received ATTITUDE: yaw=-1.0471975803375244
+12:41:01: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 127] Received ATTITUDE: yaw=0.0
+12:41:01: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 130] Received LOCAL_POSITION_NED: x=4.0, y=0.0, z=0.0
+12:41:01: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] TelemetryData: {
+            time_since_boot: 4000,
+            x: 0.0,
+            y: 4.0,
+            z: -0.0,
+            x_velocity: 0.0,
+            y_velocity: 1.0,
+            z_velocity: -0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 0.0,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+12:41:01: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 127] Received ATTITUDE: yaw=1.0471975803375244
+12:41:01: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 130] Received LOCAL_POSITION_NED: x=4.5, y=0.0, z=0.0
+12:41:01: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] TelemetryData: {
+            time_since_boot: 4500,
+            x: 0.0,
+            y: 4.5,
+            z: -0.0,
+            x_velocity: 0.0,
+            y_velocity: 1.0,
+            z_velocity: -0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 1.0471975803375244,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+12:41:02: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 127] Received ATTITUDE: yaw=2.094395160675049
+12:41:02: [WARNING] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 158] Timeout waiting for telemetry data
+12:41:03: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 127] Received ATTITUDE: yaw=3.0
+12:41:03: [WARNING] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 158] Timeout waiting for telemetry data
+12:41:04: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 130] Received LOCAL_POSITION_NED: x=3.0, y=2.0, z=1.0
+12:41:05: [WARNING] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 158] Timeout waiting for telemetry data
+12:41:05: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 127] Received ATTITUDE: yaw=0.0
+12:41:05: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 130] Received LOCAL_POSITION_NED: x=0.0, y=0.0, z=0.0
+12:41:05: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] TelemetryData: {
+            time_since_boot: 0,
+            x: 0.0,
+            y: 0.0,
+            z: -0.0,
+            x_velocity: 0.0,
+            y_velocity: 1.0,
+            z_velocity: -0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 0.0,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+12:41:05: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 130] Received LOCAL_POSITION_NED: x=0.3333333432674408, y=0.0, z=0.0
+12:41:05: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 127] Received ATTITUDE: yaw=1.5707963705062866
+12:41:05: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] TelemetryData: {
+            time_since_boot: 500,
+            x: 0.0,
+            y: 0.3333333432674408,
+            z: -0.0,
+            x_velocity: 0.0,
+            y_velocity: 1.0,
+            z_velocity: -0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 1.5707963705062866,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+12:41:06: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 130] Received LOCAL_POSITION_NED: x=0.6666666865348816, y=0.0, z=0.0
+12:41:06: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 127] Received ATTITUDE: yaw=3.1415927410125732
+12:41:06: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] TelemetryData: {
+            time_since_boot: 1000,
+            x: 0.0,
+            y: 0.6666666865348816,
+            z: -0.0,
+            x_velocity: 0.0,
+            y_velocity: 1.0,
+            z_velocity: -0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 3.1415927410125732,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+12:41:06: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 130] Received LOCAL_POSITION_NED: x=1.0, y=0.0, z=0.0
+12:41:06: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 130] Received LOCAL_POSITION_NED: x=1.3333333730697632, y=0.0, z=0.0
+12:41:06: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 127] Received ATTITUDE: yaw=-1.5707963705062866
+12:41:06: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] TelemetryData: {
+            time_since_boot: 1500,
+            x: 0.0,
+            y: 1.3333333730697632,
+            z: -0.0,
+            x_velocity: 0.0,
+            y_velocity: 1.0,
+            z_velocity: -0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: -1.5707963705062866,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+12:41:07: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 130] Received LOCAL_POSITION_NED: x=1.6666666269302368, y=0.0, z=0.0
+12:41:07: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 127] Received ATTITUDE: yaw=0.0
+12:41:07: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] TelemetryData: {
+            time_since_boot: 2000,
+            x: 0.0,
+            y: 1.6666666269302368,
+            z: -0.0,
+            x_velocity: 0.0,
+            y_velocity: 1.0,
+            z_velocity: -0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 0.0,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+12:41:07: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 130] Received LOCAL_POSITION_NED: x=2.0, y=0.0, z=0.0
+12:41:07: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 130] Received LOCAL_POSITION_NED: x=2.3333332538604736, y=0.0, z=0.0
+12:41:07: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 127] Received ATTITUDE: yaw=1.5707963705062866
+12:41:07: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] TelemetryData: {
+            time_since_boot: 2500,
+            x: 0.0,
+            y: 2.3333332538604736,
+            z: -0.0,
+            x_velocity: 0.0,
+            y_velocity: 1.0,
+            z_velocity: -0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 1.5707963705062866,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+12:41:08: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 130] Received LOCAL_POSITION_NED: x=2.6666667461395264, y=0.0, z=0.0
+12:41:08: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 127] Received ATTITUDE: yaw=3.1415927410125732
+12:41:08: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] TelemetryData: {
+            time_since_boot: 3000,
+            x: 0.0,
+            y: 2.6666667461395264,
+            z: -0.0,
+            x_velocity: 0.0,
+            y_velocity: 1.0,
+            z_velocity: -0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 3.1415927410125732,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+12:41:08: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 130] Received LOCAL_POSITION_NED: x=3.0, y=0.0, z=0.0
+12:41:08: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 130] Received LOCAL_POSITION_NED: x=3.3333332538604736, y=0.0, z=0.0
+12:41:08: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 127] Received ATTITUDE: yaw=-1.5707963705062866
+12:41:08: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] TelemetryData: {
+            time_since_boot: 3500,
+            x: 0.0,
+            y: 3.3333332538604736,
+            z: -0.0,
+            x_velocity: 0.0,
+            y_velocity: 1.0,
+            z_velocity: -0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: -1.5707963705062866,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+12:41:09: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 130] Received LOCAL_POSITION_NED: x=3.6666667461395264, y=0.0, z=0.0
+12:41:09: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 127] Received ATTITUDE: yaw=0.0
+12:41:09: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] TelemetryData: {
+            time_since_boot: 4000,
+            x: 0.0,
+            y: 3.6666667461395264,
+            z: -0.0,
+            x_velocity: 0.0,
+            y_velocity: 1.0,
+            z_velocity: -0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 0.0,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+12:41:09: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 130] Received LOCAL_POSITION_NED: x=4.0, y=0.0, z=0.0
+12:41:09: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 130] Received LOCAL_POSITION_NED: x=4.333333492279053, y=0.0, z=0.0
+12:41:09: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 127] Received ATTITUDE: yaw=1.5707963705062866
+12:41:09: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 65] TelemetryData: {
+            time_since_boot: 4500,
+            x: 0.0,
+            y: 4.333333492279053,
+            z: -0.0,
+            x_velocity: 0.0,
+            y_velocity: 1.0,
+            z_velocity: -0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 1.5707963705062866,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+12:41:10: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 130] Received LOCAL_POSITION_NED: x=4.666666507720947, y=0.0, z=0.0
+12:41:10: [WARNING] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 158] Timeout waiting for telemetry data
+12:41:10: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 68] Worker exiting
