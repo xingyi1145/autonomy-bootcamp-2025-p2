@@ -71,34 +71,33 @@ class Telemetry:
     """
 
     __private_key = object()
+    TIMEOUT = 1.0  # seconds
 
     @classmethod
     def create(
         cls,
         connection: mavutil.mavfile,
-        args,  # Put your own arguments here
         local_logger: logger.Logger,
-    ):
+    ) -> "tuple[True, Telemetry] | tuple[False, None]":
         """
         Falliable create (instantiation) method to create a Telemetry object.
         """
-        pass  # Create a Telemetry object
+        return True, cls(cls.__private_key, connection, local_logger)
 
     def __init__(
         self,
         key: object,
         connection: mavutil.mavfile,
-        args,  # Put your own arguments here
         local_logger: logger.Logger,
     ) -> None:
         assert key is Telemetry.__private_key, "Use create() method"
 
-        # Do any intializiation here
+        self.connection = connection
+        self.logger = local_logger
 
     def run(
         self,
-        args,  # Put your own arguments here
-    ):
+    ) -> "tuple[True, TelemetryData] | tuple[False, None]":
         """
         Receive LOCAL_POSITION_NED and ATTITUDE messages from the drone,
         combining them together to form a single TelemetryData object.
@@ -106,7 +105,58 @@ class Telemetry:
         # Read MAVLink message LOCAL_POSITION_NED (32)
         # Read MAVLink message ATTITUDE (30)
         # Return the most recent of both, and use the most recent message's timestamp
-        pass
+
+        attitude_msg = None
+        position_msg = None
+        start_time = time.time()
+
+        while time.time() - start_time < self.TIMEOUT:
+            # Check for messages with a short timeout
+            msg = self.connection.recv_match(
+                type=["ATTITUDE", "LOCAL_POSITION_NED"],
+                blocking=True,
+                timeout=0.1
+            )
+
+            if msg is None:
+                continue
+
+            msg_type = msg.get_type()
+            if msg_type == "ATTITUDE":
+                attitude_msg = msg
+                self.logger.info(f"Received ATTITUDE: yaw={msg.yaw}")
+            elif msg_type == "LOCAL_POSITION_NED":
+                position_msg = msg
+                self.logger.info(f"Received LOCAL_POSITION_NED: x={msg.x}, y={msg.y}, z={msg.z}")
+
+            # Check if we have both messages
+            if attitude_msg is not None and position_msg is not None:
+                # Use the most recent timestamp
+                time_since_boot = max(attitude_msg.time_boot_ms, position_msg.time_boot_ms)
+
+                # Convert from NED to standard right-handed x-y-z coordinate system
+                # NED: x=forward, y=right, z=down
+                # Standard: x=right, y=forward, z=up
+                telemetry_data = TelemetryData(
+                    time_since_boot=time_since_boot,
+                    x=position_msg.y,        # NED y (right) -> standard x (right)
+                    y=position_msg.x,        # NED x (forward) -> standard y (forward)
+                    z=-position_msg.z,       # NED z (down) -> standard z (up)
+                    x_velocity=position_msg.vy,  # NED vy -> standard vx
+                    y_velocity=position_msg.vx,  # NED vx -> standard vy
+                    z_velocity=-position_msg.vz, # NED vz -> standard vz
+                    roll=attitude_msg.roll,
+                    pitch=attitude_msg.pitch,
+                    yaw=attitude_msg.yaw,
+                    roll_speed=attitude_msg.rollspeed,
+                    pitch_speed=attitude_msg.pitchspeed,
+                    yaw_speed=attitude_msg.yawspeed,
+                )
+                return True, telemetry_data
+
+        # Timeout - didn't receive both messages
+        self.logger.warning("Timeout waiting for telemetry data")
+        return False, None
 
 
 # =================================================================================================
