@@ -113,9 +113,7 @@ class Telemetry:
         while time.time() - start_time < self.TIMEOUT:
             # Check for messages with a short timeout
             msg = self.connection.recv_match(
-                type=["ATTITUDE", "LOCAL_POSITION_NED"],
-                blocking=True,
-                timeout=0.1
+                type=["ATTITUDE", "LOCAL_POSITION_NED"], blocking=True, timeout=0.1
             )
 
             if msg is None:
@@ -139,12 +137,12 @@ class Telemetry:
                 # Standard: x=right, y=forward, z=up
                 telemetry_data = TelemetryData(
                     time_since_boot=time_since_boot,
-                    x=position_msg.y,        # NED y (right) -> standard x (right)
-                    y=position_msg.x,        # NED x (forward) -> standard y (forward)
-                    z=-position_msg.z,       # NED z (down) -> standard z (up)
+                    x=position_msg.y,  # NED y (right) -> standard x (right)
+                    y=position_msg.x,  # NED x (forward) -> standard y (forward)
+                    z=-position_msg.z,  # NED z (down) -> standard z (up)
                     x_velocity=position_msg.vy,  # NED vy -> standard vx
                     y_velocity=position_msg.vx,  # NED vx -> standard vy
-                    z_velocity=-position_msg.vz, # NED vz -> standard vz
+                    z_velocity=-position_msg.vz,  # NED vz -> standard vz
                     roll=attitude_msg.roll,
                     pitch=attitude_msg.pitch,
                     yaw=attitude_msg.yaw,

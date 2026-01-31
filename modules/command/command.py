@@ -117,7 +117,11 @@ class Command:  # pylint: disable=too-many-instance-attributes
         # Adjust direction (yaw) using MAV_CMD_CONDITION_YAW (115). Must use relative angle to current state
         # String to return to main: "CHANGING_YAW: {degree you changed it by in range [-180, 180]}"
         # Positive angle is counter-clockwise as in a right handed system
-        if telemetry_data.x is not None and telemetry_data.y is not None and telemetry_data.yaw is not None:
+        if (
+            telemetry_data.x is not None
+            and telemetry_data.y is not None
+            and telemetry_data.yaw is not None
+        ):
             # Calculate angle to target from current position
             dx = self.target.x - telemetry_data.x
             dy = self.target.y - telemetry_data.y

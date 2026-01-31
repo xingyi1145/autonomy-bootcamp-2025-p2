@@ -47,7 +47,7 @@ def heartbeat_sender_worker(
     #                          ↓ BOOTCAMPERS MODIFY BELOW THIS COMMENT ↓
     # =============================================================================================
     # Instantiate class object (heartbeat_sender.HeartbeatSender)
-    
+
     result, sender = heartbeat_sender.HeartbeatSender.create(connection)
     if not result or sender is None:
         local_logger.error("Failed to create HeartbeatSender")
@@ -58,7 +58,7 @@ def heartbeat_sender_worker(
         controller.check_pause()
 
         sender.run()
-        
+
         time.sleep(1)
 
     local_logger.info("Worker exiting")
