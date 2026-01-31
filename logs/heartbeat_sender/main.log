@@ -1,0 +1,2 @@
+11:29:44: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/common/modules/logger/logger_main_setup.py | setup_main_logger | 62] main logger initialized
+11:29:44: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_heartbeat_sender.py | main | 88] Connected!
