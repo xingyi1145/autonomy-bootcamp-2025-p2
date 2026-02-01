@@ -1,6 +1,6 @@
-12:40:57: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/common/modules/logger/logger_main_setup.py | setup_main_logger | 62] main logger initialized
-12:40:57: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | main | 113] Connected!
-12:40:57: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
+19:35:45: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/common/modules/logger/logger_main_setup.py | setup_main_logger | 62] main logger initialized
+19:35:45: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | main | 113] Connected!
+19:35:45: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
             time_since_boot: 0,
             x: 0.0,
             y: 0.0,
@@ -15,7 +15,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-12:40:57: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
+19:35:46: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
             time_since_boot: 500,
             x: 0.0,
             y: 0.5,
@@ -30,7 +30,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-12:40:58: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
+19:35:46: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
             time_since_boot: 1000,
             x: 0.0,
             y: 1.0,
@@ -45,7 +45,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-12:40:58: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
+19:35:47: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
             time_since_boot: 1500,
             x: 0.0,
             y: 1.5,
@@ -60,7 +60,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-12:40:59: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
+19:35:47: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
             time_since_boot: 2000,
             x: 0.0,
             y: 2.0,
@@ -75,7 +75,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-12:40:59: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
+19:35:48: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
             time_since_boot: 2500,
             x: 0.0,
             y: 2.5,
@@ -90,7 +90,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-12:41:00: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
+19:35:48: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
             time_since_boot: 3000,
             x: 0.0,
             y: 3.0,
@@ -105,7 +105,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-12:41:00: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
+19:35:49: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
             time_since_boot: 3500,
             x: 0.0,
             y: 3.5,
@@ -120,7 +120,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-12:41:01: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
+19:35:49: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
             time_since_boot: 4000,
             x: 0.0,
             y: 4.0,
@@ -135,7 +135,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-12:41:01: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
+19:35:50: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
             time_since_boot: 4500,
             x: 0.0,
             y: 4.5,
@@ -150,7 +150,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-12:41:05: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
+19:35:53: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
             time_since_boot: 0,
             x: 0.0,
             y: 0.0,
@@ -165,7 +165,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-12:41:05: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
+19:35:54: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
             time_since_boot: 500,
             x: 0.0,
             y: 0.3333333432674408,
@@ -180,7 +180,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-12:41:06: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
+19:35:54: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
             time_since_boot: 1000,
             x: 0.0,
             y: 0.6666666865348816,
@@ -195,7 +195,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-12:41:06: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
+19:35:55: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
             time_since_boot: 1500,
             x: 0.0,
             y: 1.3333333730697632,
@@ -210,7 +210,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-12:41:07: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
+19:35:55: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
             time_since_boot: 2000,
             x: 0.0,
             y: 1.6666666269302368,
@@ -225,7 +225,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-12:41:07: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
+19:35:56: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
             time_since_boot: 2500,
             x: 0.0,
             y: 2.3333332538604736,
@@ -240,7 +240,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-12:41:08: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
+19:35:56: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
             time_since_boot: 3000,
             x: 0.0,
             y: 2.6666667461395264,
@@ -255,7 +255,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-12:41:08: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
+19:35:57: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
             time_since_boot: 3500,
             x: 0.0,
             y: 3.3333332538604736,
@@ -270,7 +270,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-12:41:09: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
+19:35:57: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
             time_since_boot: 4000,
             x: 0.0,
             y: 3.6666667461395264,
@@ -285,7 +285,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-12:41:09: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
+19:35:58: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_telemetry.py | read_queue | 70] Received TelemetryData: {
             time_since_boot: 4500,
             x: 0.0,
             y: 4.333333492279053,

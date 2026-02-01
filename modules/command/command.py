@@ -31,10 +31,6 @@ class Command:  # pylint: disable=too-many-instance-attributes
     """
 
     __private_key = object()
-    HEIGHT_TOLERANCE = 0.5  # meters
-    ANGLE_TOLERANCE = 5  # degrees
-    Z_SPEED = 1  # m/s
-    TURNING_SPEED = 5  # deg/s
 
     @classmethod
     def create(
@@ -60,6 +56,12 @@ class Command:  # pylint: disable=too-many-instance-attributes
         self.connection = connection
         self.target = target
         self.logger = local_logger
+
+        # Constants
+        self.height_tolerance = 0.5  # meters
+        self.angle_tolerance = 5  # degrees
+        self.z_speed = 1  # m/s
+        self.turning_speed = 5  # deg/s
 
         # For average velocity calculation
         self.total_velocity_x = 0.0
@@ -96,14 +98,14 @@ class Command:  # pylint: disable=too-many-instance-attributes
         # String to return to main: "CHANGE_ALTITUDE: {amount you changed it by, delta height in meters}"
         if telemetry_data.z is not None:
             delta_z = self.target.z - telemetry_data.z
-            if abs(delta_z) > self.HEIGHT_TOLERANCE:
+            if abs(delta_z) > self.height_tolerance:
                 # Send COMMAND_LONG with MAV_CMD_CONDITION_CHANGE_ALT
                 self.connection.mav.command_long_send(
                     1,  # target_system
                     0,  # target_component
                     mavutil.mavlink.MAV_CMD_CONDITION_CHANGE_ALT,
                     0,  # confirmation
-                    self.Z_SPEED,  # param1: descent/ascent rate
+                    self.z_speed,  # param1: descent/ascent rate
                     0,  # param2: empty
                     0,  # param3: empty
                     0,  # param4: empty
@@ -111,7 +113,6 @@ class Command:  # pylint: disable=too-many-instance-attributes
                     0,  # param6: empty
                     self.target.z,  # param7: target altitude
                 )
-                self.logger.info(f"CHANGE_ALTITUDE: {delta_z}")
                 return f"CHANGE_ALTITUDE: {delta_z}"
 
         # Adjust direction (yaw) using MAV_CMD_CONDITION_YAW (115). Must use relative angle to current state
@@ -142,7 +143,7 @@ class Command:  # pylint: disable=too-many-instance-attributes
             # Convert to degrees
             delta_yaw_deg = math.degrees(delta_yaw)
 
-            if abs(delta_yaw_deg) > self.ANGLE_TOLERANCE:
+            if abs(delta_yaw_deg) > self.angle_tolerance:
                 # Determine direction (1 = counter-clockwise, -1 = clockwise)
                 direction = 1 if delta_yaw_deg >= 0 else -1
 
@@ -153,14 +154,13 @@ class Command:  # pylint: disable=too-many-instance-attributes
                     mavutil.mavlink.MAV_CMD_CONDITION_YAW,
                     0,  # confirmation
                     abs(delta_yaw_deg),  # param1: target angle in degrees
-                    self.TURNING_SPEED,  # param2: angular speed in deg/s
+                    self.turning_speed,  # param2: angular speed in deg/s
                     direction,  # param3: direction (-1 = CW, 1 = CCW)
                     1,  # param4: 0 = absolute, 1 = relative
                     0,  # param5: empty
                     0,  # param6: empty
                     0,  # param7: empty
                 )
-                self.logger.info(f"CHANGE_YAW: {delta_yaw_deg}")
                 return f"CHANGE_YAW: {delta_yaw_deg}"
 
         return None

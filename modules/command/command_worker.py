@@ -69,13 +69,10 @@ def command_worker(
             if telemetry_data is None:
                 continue
 
-            local_logger.info(f"Received TelemetryData: {telemetry_data}")
-
             # Process the telemetry data
             result_str = cmd.run(telemetry_data)
 
             if result_str is not None:
-                local_logger.info(f"Command result: {result_str}")
                 output_queue.queue.put(result_str)
         except:  # pylint: disable=bare-except
             # Queue timeout or empty, continue

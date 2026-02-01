@@ -1,28 +1,28 @@
-12:43:21: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/common/modules/logger/logger_main_setup.py | setup_main_logger | 62] main logger initialized
-12:43:21: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | main | 132] Connected!
-12:43:21: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_ALTITUDE: 1
-12:43:21: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_ALTITUDE: -1
-12:43:24: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: 63.43494882292201
-12:43:25: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: 90.0
-12:43:25: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: 116.56505117707799
-12:43:26: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: 45.0
-12:43:26: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: 63.43494882292201
-12:43:27: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: 90.0
-12:43:27: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: 26.565051177077994
-12:43:28: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: 45.0
-12:43:28: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: 90.0
-12:43:29: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: 45.0
-12:43:29: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: 90.0
-12:43:30: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: 135.0
-12:43:30: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: -26.565051177077994
-12:43:31: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: -45.0
-12:43:31: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: -90.0
-12:43:32: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: -45.0
-12:43:32: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: -90.0
-12:43:33: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: -135.0
-12:43:33: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: -63.43494882292201
-12:43:34: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: -90.0
-12:43:34: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: -116.56505117707799
-12:43:35: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: -45.0
-12:43:35: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: -63.43494882292201
-12:43:36: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: -90.0
+19:50:48: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/modules/common/modules/logger/logger_main_setup.py | setup_main_logger | 62] main logger initialized
+19:50:48: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | main | 132] Connected!
+19:50:48: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_ALTITUDE: 1
+19:50:49: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_ALTITUDE: -1
+19:50:52: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: 63.43494882292201
+19:50:52: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: 90.0
+19:50:53: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: 116.56505117707799
+19:50:53: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: 45.0
+19:50:54: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: 63.43494882292201
+19:50:54: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: 90.0
+19:50:55: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: 26.565051177077994
+19:50:55: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: 45.0
+19:50:56: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: 90.0
+19:50:56: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: 45.0
+19:50:57: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: 90.0
+19:50:57: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: 135.0
+19:50:58: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: -26.565051177077994
+19:50:58: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: -45.0
+19:50:59: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: -90.0
+19:50:59: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: -45.0
+19:51:00: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: -90.0
+19:51:00: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: -135.0
+19:51:01: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: -63.43494882292201
+19:51:01: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: -90.0
+19:51:02: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: -116.56505117707799
+19:51:02: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: -45.0
+19:51:03: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: -63.43494882292201
+19:51:03: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 77] Command result: CHANGE_YAW: -90.0

@@ -1,0 +1,12 @@
+19:32:53: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/heartbeat_sender_drone.py | main | 40] Logger initialized
+19:32:56: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/heartbeat_sender_drone.py | main | 71] Drone: Recieved heartbeat!
+19:32:57: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/heartbeat_sender_drone.py | main | 71] Drone: Recieved heartbeat!
+19:32:58: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/heartbeat_sender_drone.py | main | 71] Drone: Recieved heartbeat!
+19:32:59: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/heartbeat_sender_drone.py | main | 71] Drone: Recieved heartbeat!
+19:33:00: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/heartbeat_sender_drone.py | main | 71] Drone: Recieved heartbeat!
+19:33:01: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/heartbeat_sender_drone.py | main | 71] Drone: Recieved heartbeat!
+19:33:02: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/heartbeat_sender_drone.py | main | 71] Drone: Recieved heartbeat!
+19:33:03: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/heartbeat_sender_drone.py | main | 71] Drone: Recieved heartbeat!
+19:33:04: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/heartbeat_sender_drone.py | main | 71] Drone: Recieved heartbeat!
+19:33:05: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/heartbeat_sender_drone.py | main | 71] Drone: Recieved heartbeat!
+19:33:06: [INFO] [/home/xingy/WRAG-Bootcamp/autonomy-bootcamp-2025-p2/tests/integration/mock_drones/heartbeat_sender_drone.py | main | 80] Passed!

@@ -71,7 +71,6 @@ class Telemetry:
     """
 
     __private_key = object()
-    TIMEOUT = 1.0  # seconds
 
     @classmethod
     def create(
@@ -94,6 +93,7 @@ class Telemetry:
 
         self.connection = connection
         self.logger = local_logger
+        self.timeout = 1.0  # seconds
 
     def run(
         self,
@@ -110,7 +110,7 @@ class Telemetry:
         position_msg = None
         start_time = time.time()
 
-        while time.time() - start_time < self.TIMEOUT:
+        while time.time() - start_time < self.timeout:
             # Check for messages with a short timeout
             msg = self.connection.recv_match(
                 type=["ATTITUDE", "LOCAL_POSITION_NED"], blocking=True, timeout=0.1

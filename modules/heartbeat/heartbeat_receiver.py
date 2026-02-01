@@ -16,7 +16,6 @@ class HeartbeatReceiver:
     """
 
     __private_key = object()
-    DISCONNECT_THRESHOLD = 5  # Number of missed heartbeats before disconnected
 
     @classmethod
     def create(
@@ -39,6 +38,7 @@ class HeartbeatReceiver:
 
         self.connection = connection
         self.logger = local_logger
+        self.disconnect_threshold = 5  # Number of missed heartbeats before disconnected
         self.missed_heartbeats = 0
         self.is_connected = False
 
@@ -64,7 +64,7 @@ class HeartbeatReceiver:
             self.missed_heartbeats += 1
             self.logger.warning(f"Missed heartbeat ({self.missed_heartbeats})")
 
-            if self.missed_heartbeats >= self.DISCONNECT_THRESHOLD:
+            if self.missed_heartbeats >= self.disconnect_threshold:
                 self.is_connected = False
 
         status = "Connected" if self.is_connected else "Disconnected"
