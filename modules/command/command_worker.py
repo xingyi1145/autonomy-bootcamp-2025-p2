@@ -55,7 +55,7 @@ def command_worker(
     # Instantiate class object (command.Command)
 
     result, cmd = command.Command.create(connection, target, local_logger)
-    if not result or cmd is None:
+    if not result:
         local_logger.error("Failed to create Command")
         return
 

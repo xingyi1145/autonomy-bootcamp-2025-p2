@@ -144,8 +144,8 @@ class Command:  # pylint: disable=too-many-instance-attributes
             delta_yaw_deg = math.degrees(delta_yaw)
 
             if abs(delta_yaw_deg) > self.angle_tolerance:
-                # Determine direction (1 = counter-clockwise, -1 = clockwise)
-                direction = 1 if delta_yaw_deg >= 0 else -1
+                # Determine direction (-1 = counter-clockwise, 1 = clockwise)
+                direction = -1 if delta_yaw_deg >= 0 else 1
 
                 # Send COMMAND_LONG with MAV_CMD_CONDITION_YAW
                 self.connection.mav.command_long_send(
@@ -155,7 +155,7 @@ class Command:  # pylint: disable=too-many-instance-attributes
                     0,  # confirmation
                     abs(delta_yaw_deg),  # param1: target angle in degrees
                     self.turning_speed,  # param2: angular speed in deg/s
-                    direction,  # param3: direction (-1 = CW, 1 = CCW)
+                    direction,  # param3: direction (-1 = CCW, 1 = CW)
                     1,  # param4: 0 = absolute, 1 = relative
                     0,  # param5: empty
                     0,  # param6: empty
